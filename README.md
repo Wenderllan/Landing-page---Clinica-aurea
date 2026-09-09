@@ -1,6 +1,6 @@
 # Clínica Áurea
 
-Landing page de uma clínica odontológica fictícia, desenvolvida para portfólio com HTML, CSS e JavaScript. O projeto combina uma identidade visual em verde-água, dourado e branco com fotografias, animações suaves e navegação adaptada a computadores e celulares.
+Landing page de uma clínica odontológica, desenvolvida para portfólio com HTML, CSS e JavaScript. O projeto combina uma identidade visual em verde-água, dourado e branco com fotografias, animações suaves e navegação adaptada a computadores e celulares.
 
 **[Acesse o site publicado](https://wenderllan.github.io/clinica-aurea/)**
 
