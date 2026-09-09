@@ -1749,3 +1749,41 @@ body.modal-aberto {
         transition-duration: 0.01ms !important;
     }
 }
+
+/* Oculta os controles do carrossel em todas as telas */
+.hero .hero-controles {
+    display: none;
+}
+
+@media (max-width: 800px) {
+    .hero-legenda {
+        left: 5%;
+        right: auto;
+        width: fit-content;
+        max-width: min(230px, 90%);
+        padding: 8px 10px;
+        gap: 2px;
+        border-left-width: 2px;
+        background-color: rgba(16, 59, 58, 0.78);
+    }
+
+    .hero-legenda strong {
+        font-size: 15px;
+        line-height: 1.2;
+    }
+
+    .hero-legenda span {
+        font-size: 11px;
+        line-height: 1.3;
+    }
+
+    .hero-legenda small {
+        margin-top: 2px;
+        font-size: 10px;
+        line-height: 1.3;
+    }
+}
+
+.hero-legenda #hero-area {
+    display: none;
+}
