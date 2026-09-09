@@ -1,0 +1,816 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="description"
+        content="Clínica Áurea — odontologia moderna, atendimento humanizado e cuidado completo para o seu sorriso."
+    >
+
+    <title>Clínica Áurea | Odontologia e Estética</title>
+     
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg?v=2">
+
+<meta name="theme-color" content="#164b4a">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="css/style.css?v=2">
+</head>
+
+<body>
+
+    <header class="header">
+
+    <div class="container header-container">
+
+        <a href="#inicio" class="logo" aria-label="Clínica Áurea - Página inicial">
+            <span class="logo-simbolo">Á</span>
+
+            <span class="logo-texto">
+                <strong>Clínica Áurea</strong>
+                <small>Odontologia e Estética</small>
+            </span>
+        </a>
+
+        <nav class="nav" id="menu-principal" aria-label="Navegação principal">
+    <a href="#inicio">Início</a>
+    <a href="#tratamentos">Tratamentos</a>
+    <a href="#sobre">Sobre</a>
+    <a href="#equipe">Equipe</a>
+    <a href="#contato">Contato</a>
+</nav>
+
+        <a href="#contato" class="btn-agendamento">
+            Agende sua avaliação
+        </a>
+        
+      
+
+        <button
+    class="menu-toggle"
+    type="button"
+    aria-label="Abrir menu"
+    aria-expanded="false"
+    aria-controls="menu-principal"
+>
+    ☰
+</button>
+
+    </div>
+</header>
+
+<main>
+
+    <section class="hero" id="inicio">
+
+        <div class="hero-fundo" aria-hidden="true">
+
+    <img
+        src="assets/images/hero-entrada.png"
+        alt=""
+        class="hero-slide ativo"
+        fetchpriority="high"
+    >
+
+    <img
+        src="assets/images/hero-clinica.png"
+        alt=""
+        class="hero-slide"
+        data-nome="Dra. Helena Duarte"
+        data-area="Ortodontia e estética dental"
+        data-perfil="helena-duarte"
+    >
+
+    <img
+        src="assets/images/hero-dentista.png"
+        alt=""
+        class="hero-slide"
+        data-nome="Dr. Rafael Almeida"
+        data-area="Implantodontia e reabilitação oral"
+        data-perfil="rafael-almeida"
+    >
+
+    <img
+        src="assets/images/hero-dentista-mulher.png"
+        alt=""
+        class="hero-slide"
+        data-nome="Dra. Mariana Costa"
+        data-area="Odontologia clínica e prevenção"
+        data-perfil="mariana-costa"
+    >
+
+</div>
+
+<a class="hero-legenda" id="hero-legenda" href="#equipe" hidden>
+    <strong id="hero-profissional"></strong>
+    <span id="hero-area"></span>
+    <small>Conheça o profissional →</small>
+</a>
+
+        <div class="container hero-container">
+
+            <div class="hero-conteudo">
+
+                <span class="hero-tag">
+                    Cuidado, saúde e confiança
+                </span>
+
+                <h1>
+                    Seu sorriso merece um
+                    <span>cuidado especial</span>
+                </h1>
+
+                <p>
+                    Tratamentos odontológicos modernos, atendimento humanizado
+                    e resultados que transformam sua saúde e sua autoestima.
+                </p>
+
+                <div class="hero-acoes">
+
+                    <a href="#contato" class="btn-primario">
+                        Agende sua avaliação
+                    </a>
+
+                    <a href="#tratamentos" class="btn-secundario">
+                        Conheça os tratamentos
+                    </a>
+
+                </div>
+
+                <div class="hero-destaques">
+
+                    <div class="hero-destaque">
+                        <strong>+10</strong>
+                        <span>anos de experiência</span>
+                    </div>
+
+                    <div class="hero-destaque">
+                        <strong>+2.500</strong>
+                        <span>sorrisos cuidados</span>
+                    </div>
+
+                    <div class="hero-destaque">
+                        <strong>4,9</strong>
+                        <span>avaliação dos pacientes</span>
+                    </div>
+
+                </div>
+            <div class="hero-controles" role="group" aria-label="Controles das imagens">
+
+    <button type="button" id="hero-anterior" aria-label="Imagem anterior">
+        ←
+    </button>
+
+    <span id="hero-contador" aria-live="off">1 / 4</span>
+
+    <button type="button" id="hero-proximo" aria-label="Próxima imagem">
+        →
+    </button>
+
+    <button type="button" id="hero-pausa">
+        Pausar
+    </button>
+
+</div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="tratamentos" id="tratamentos">
+
+    <div class="container">
+
+        <div class="section-cabecalho">
+
+            <span class="section-tag">Especialidades</span>
+
+            <h2>
+                Tratamentos pensados para
+                <span>o seu sorriso</span>
+            </h2>
+
+            <p>
+                Tecnologia, planejamento e cuidado em cada etapa do seu tratamento.
+            </p>
+
+        </div>
+
+        <div class="tratamentos-grid">
+
+            <article class="tratamento-card">
+
+                <img
+    class="tratamento-foto"
+    src="assets/images/tratamento-limpeza.png"
+    alt=""
+    loading="lazy"
+    decoding="async"
+>
+
+<button
+    type="button"
+    class="tratamento-revelar"
+    aria-pressed="false"
+    aria-label="Mostrar imagem de prevenção e limpeza"
+>
+    Ver imagem
+</button>
+
+                <span class="tratamento-numero">01</span>
+
+                <h3>Prevenção e limpeza</h3>
+
+                <p>
+                    Cuidados preventivos para manter sua saúde bucal sempre em dia.
+                </p>
+
+                <a href="#contato">Saiba mais <span>→</span></a>
+
+            </article>
+
+            <article class="tratamento-card">
+
+                <img
+    class="tratamento-foto"
+    src="assets/images/tratamento-estetica.png"
+    alt=""
+    loading="lazy"
+    decoding="async"
+>
+
+<button
+    type="button"
+    class="tratamento-revelar"
+    aria-pressed="false"
+    aria-label="Mostrar imagem de estética dental"
+>
+    Ver imagem
+</button>
+
+                <span class="tratamento-numero">02</span>
+
+                <h3>Estética dental</h3>
+
+                <p>
+                    Clareamento, lentes e soluções estéticas para um sorriso mais harmônico.
+                </p>
+
+                <a href="#contato">Saiba mais <span>→</span></a>
+
+            </article>
+
+            <article class="tratamento-card">
+
+                <img
+    class="tratamento-foto"
+    src="assets/images/tratamento-implantes.png"
+    alt=""
+    loading="lazy"
+    decoding="async"
+>
+
+<button
+    type="button"
+    class="tratamento-revelar"
+    aria-pressed="false"
+    aria-label="Mostrar imagem de implantes dentários"
+>
+    Ver imagem
+</button>
+                
+                <span class="tratamento-numero">03</span>
+
+                <h3>Implantes dentários</h3>
+
+                <p>
+                    Segurança e naturalidade para recuperar função, conforto e autoestima.
+                </p>
+
+                <a href="#contato">Saiba mais <span>→</span></a>
+
+            </article>
+
+            <article class="tratamento-card">
+
+                <img
+    class="tratamento-foto"
+    src="assets/images/tratamento-ortodontia.png"
+    alt=""
+    loading="lazy"
+    decoding="async"
+>
+
+<button
+    type="button"
+    class="tratamento-revelar"
+    aria-pressed="false"
+    aria-label="Mostrar imagem de ortodontia"
+>
+    Ver imagem
+</button>
+                
+                <span class="tratamento-numero">04</span>
+
+                <h3>Ortodontia</h3>
+
+                <p>
+                    Tratamentos personalizados para alinhar seu sorriso com conforto.
+                </p>
+
+                <a href="#contato">Saiba mais <span>→</span></a>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section class="sobre" id="sobre">
+
+    <div class="container sobre-grid">
+
+        <div class="sobre-imagem-wrapper">
+
+            <img
+    src="assets/images/sobre-clinica.png"
+    alt="Ambiente moderno da Clínica Áurea"
+    class="sobre-imagem"
+    loading="lazy"
+    decoding="async"
+>
+
+            <div class="sobre-selo">
+                <strong>+10</strong>
+                <span>anos cuidando<br>de sorrisos</span>
+            </div>
+
+        </div>
+
+        <div class="sobre-conteudo">
+
+            <span class="section-tag">Sobre a Clínica Áurea</span>
+
+            <h2>
+                Odontologia com técnica,
+                <span>escuta e propósito.</span>
+            </h2>
+
+            <p>
+                Na Clínica Áurea, acreditamos que cada sorriso carrega uma história.
+                Por isso, unimos tecnologia, planejamento personalizado e atendimento
+                humanizado para que você se sinta seguro em todas as etapas.
+            </p>
+
+            <div class="sobre-lista">
+
+                <div class="sobre-item">
+                    <span>✓</span>
+
+                    <div>
+                        <h3>Atendimento personalizado</h3>
+                        <p>Planos feitos de acordo com suas necessidades e objetivos.</p>
+                    </div>
+                </div>
+
+                <div class="sobre-item">
+                    <span>✓</span>
+
+                    <div>
+                        <h3>Tecnologia e conforto</h3>
+                        <p>Recursos modernos para tratamentos mais seguros e tranquilos.</p>
+                    </div>
+                </div>
+
+                <div class="sobre-item">
+                    <span>✓</span>
+
+                    <div>
+                        <h3>Equipe especializada</h3>
+                        <p>Profissionais preparados para cuidar de você por completo.</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <a href="#contato" class="btn-primario">
+                Conheça a Clínica
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section class="equipe" id="equipe">
+
+    <div class="container">
+
+        <div class="section-cabecalho equipe-cabecalho">
+
+            <span class="section-tag">Nossa equipe</span>
+
+            <h2>
+                Profissionais que cuidam
+                <span>de cada detalhe.</span>
+            </h2>
+
+            <p>
+                Uma equipe multidisciplinar pronta para oferecer um atendimento seguro,
+                próximo e personalizado.
+            </p>
+
+        </div>
+
+        <div class="equipe-imagem-wrapper">
+
+            <img
+    src="assets/images/equipe-clinica.png"
+    alt="Equipe de profissionais da Clínica Áurea"
+    class="equipe-imagem"
+    loading="lazy"
+    decoding="async"
+>
+
+            <div class="equipe-mensagem">
+                <span>Clínica Áurea</span>
+                <strong>Conhecimento, cuidado e confiança.</strong>
+            </div>
+
+        </div>
+
+        <div class="especialidades-equipe">
+
+    <div id="mariana-costa" class="equipe-profissional" tabindex="-1">
+        <strong>Dra. Mariana Costa</strong>
+        <span>Odontologia clínica e prevenção</span>
+
+        <button
+            type="button"
+            class="equipe-perfil"
+            data-profissional="Dra. Mariana Costa"
+            aria-haspopup="dialog"
+            aria-controls="modal-perfil"
+        >
+
+        <svg
+        class="icone-instagram"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="1.8"
+        aria-hidden="true"
+        focusable="false"
+    >
+        <rect x="3" y="3" width="18" height="18" rx="5"/>
+        <circle cx="12" cy="12" r="4"/>
+        <circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/>
+    </svg>
+    
+            @dra.mariana.aurea 
+        </button>
+    </div>
+
+    <div id="rafael-almeida" class="equipe-profissional" tabindex="-1">
+        <strong>Dr. Rafael Almeida</strong>
+        <span>Implantodontia e reabilitação oral</span>
+
+        <button
+            type="button"
+            class="equipe-perfil"
+            data-profissional="Dr. Rafael Almeida"
+            aria-haspopup="dialog"
+            aria-controls="modal-perfil"
+        >
+        <svg
+        class="icone-instagram"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="1.8"
+        aria-hidden="true"
+        focusable="false"
+    >
+        <rect x="3" y="3" width="18" height="18" rx="5"/>
+        <circle cx="12" cy="12" r="4"/>
+        <circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/>
+    </svg>
+
+            @dr.rafael.aurea 
+        </button>
+    </div>
+
+    <div id="helena-duarte" class="equipe-profissional" tabindex="-1">
+        <strong>Dra. Helena Duarte</strong>
+        <span>Ortodontia e estética dental</span>
+
+        <button
+            type="button"
+            class="equipe-perfil"
+            data-profissional="Dra. Helena Duarte"
+            aria-haspopup="dialog"
+            aria-controls="modal-perfil"
+        >
+        <svg
+        class="icone-instagram"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="1.8"
+        aria-hidden="true"
+        focusable="false"
+    >
+        <rect x="3" y="3" width="18" height="18" rx="5"/>
+        <circle cx="12" cy="12" r="4"/>
+        <circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/>
+    </svg>
+
+            @dra.helena.aurea 
+        </button>
+    </div>
+
+</div>
+
+    </div>
+
+</section>
+
+<section class="faq" id="perguntas">
+
+    <div class="container faq-grid">
+
+        <div class="section-cabecalho">
+            <span class="section-tag">Perguntas frequentes</span>
+
+            <h2>
+                Mais clareza para
+                <span>cuidar do seu sorriso.</span>
+            </h2>
+
+            <p>
+                Conheça como funciona o atendimento e tire suas
+                primeiras dúvidas.
+            </p>
+        </div>
+
+        <div class="faq-lista">
+
+            <details class="faq-item">
+                <summary>Como funciona a primeira consulta?</summary>
+
+                <div class="faq-resposta">
+                    <p>
+                        É um momento para conversar sobre suas necessidades,
+                        conhecer seu histórico e avaliar sua saúde bucal.
+                        A partir dessa avaliação, são discutidas as opções
+                        de tratamento.
+                    </p>
+                </div>
+            </details>
+
+            <details class="faq-item">
+                <summary>Posso conversar sobre diferentes tratamentos?</summary>
+
+                <div class="faq-resposta">
+                    <p>
+                        Sim. A consulta permite apresentar seus objetivos
+                        e esclarecer dúvidas sobre as alternativas indicadas
+                        para o seu caso.
+                    </p>
+                </div>
+            </details>
+
+            <details class="faq-item">
+                <summary>O que devo levar à consulta?</summary>
+
+                <div class="faq-resposta">
+                    <p>
+                        Leve um documento de identificação e, se tiver,
+                        exames odontológicos recentes. Informe também
+                        os medicamentos que utiliza.
+                    </p>
+                </div>
+            </details>
+
+            <details class="faq-item">
+    <summary>Como posso agendar uma avaliação?</summary>
+
+    <div class="faq-resposta">
+        <p>
+            Clique em “Agende sua avaliação” para acessar nossos
+            canais de contato. Nossa equipe poderá esclarecer suas
+            dúvidas e ajudar você a encontrar o melhor horário.
+        </p>
+    </div>
+</details>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section class="contato" id="contato">
+
+    <div class="container contato-grid">
+
+        <div class="contato-conteudo">
+
+            <span class="section-tag">Vamos conversar</span>
+
+            <h2>
+                O próximo passo para
+                <span>cuidar do seu sorriso.</span>
+            </h2>
+
+            <p>
+                Tire suas dúvidas sobre nossos tratamentos
+                e encontre um horário para sua avaliação.
+                Estamos prontos para receber você.
+            </p>
+
+            <button
+                type="button"
+                class="btn-primario contato-botao"
+                id="abrir-demo"
+                aria-haspopup="dialog"
+                aria-controls="modal-demo"
+            >
+                Agendar pelo WhatsApp
+                <span aria-hidden="true">↗</span>
+            </button>
+
+        </div>
+
+        <div class="contato-card">
+
+            <span class="contato-card-tag">Seu momento de cuidado</span>
+
+            <h3>Horários de atendimento</h3>
+
+            <dl class="contato-horarios">
+
+                <div>
+                    <dt>Segunda a sexta</dt>
+                    <dd>08h às 19h</dd>
+                </div>
+
+                <div>
+                    <dt>Sábado</dt>
+                    <dd>08h às 13h</dd>
+                </div>
+
+                <div>
+                    <dt>Domingo</dt>
+                    <dd>Fechado</dd>
+                </div>
+
+            </dl>
+
+            <p class="contato-observacao">
+                Atendimento com horário marcado.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+</main>
+    <footer class="footer">
+
+    <div class="container">
+
+        <div class="footer-principal">
+
+            <div class="footer-marca">
+
+                <a href="#inicio" class="logo">
+                    <span class="logo-simbolo" aria-hidden="true">Á</span>
+
+                    <span class="logo-texto">
+                        <strong>Clínica Áurea</strong>
+                        <small>Odontologia e Estética</small>
+                    </span>
+                </a>
+
+                <p>
+                    Cuidado, atenção e acolhimento
+                    em cada etapa do seu sorriso.
+                </p>
+
+            </div>
+
+            <nav class="footer-nav" aria-label="Navegação do rodapé">
+                <a href="#tratamentos">Tratamentos</a>
+                <a href="#sobre">Sobre a clínica</a>
+                <a href="#equipe">Equipe</a>
+                <a href="#perguntas">Perguntas frequentes</a>
+                <a href="#contato">Contato</a>
+            </nav>
+
+            <a href="#inicio" class="footer-topo">
+                Voltar ao início <span aria-hidden="true">↑</span>
+            </a>
+
+        </div>
+
+        <div class="footer-base">
+
+            <p>© 2026 Clínica Áurea — Projeto conceitual de portfólio.</p>
+
+            <p class="footer-nota">
+                Clínica, equipe, indicadores e avaliações fictícios.
+                Imagens geradas por IA.
+            </p>
+
+        </div>
+
+    </div>
+
+</footer>
+
+<dialog
+    id="modal-demo"
+    class="modal-demo"
+    aria-labelledby="demo-titulo"
+    aria-describedby="demo-descricao"
+>
+
+    <div class="demo-conteudo">
+
+        <span class="section-tag">Projeto de portfólio</span>
+
+        <h2 id="demo-titulo">Obrigado pela visita!</h2>
+
+        <p id="demo-descricao">
+            A Clínica Áurea é um projeto demonstrativo.
+            Em uma clínica real, este botão abriria uma conversa
+            com a equipe pelo WhatsApp. Nenhum agendamento foi realizado.
+        </p>
+
+        <form method="dialog">
+            <button type="submit" class="btn-primario demo-fechar" autofocus>
+                Entendi
+            </button>
+        </form>
+
+    </div>
+
+</dialog>
+
+<dialog
+    id="modal-perfil"
+    class="modal-demo"
+    aria-labelledby="perfil-titulo"
+    aria-describedby="perfil-descricao"
+>
+    <div class="demo-conteudo">
+
+        <span class="section-tag">Perfil demonstrativo</span>
+
+        <h2 id="perfil-titulo">Perfil profissional</h2>
+
+        <p id="perfil-descricao">
+            Este profissional faz parte de uma clínica fictícia.
+            Em um site real, este acesso levaria ao seu Instagram profissional.
+        </p>
+
+        <form method="dialog">
+            <button
+                type="submit"
+                class="btn-primario demo-fechar"
+                autofocus
+            >
+                Entendi
+            </button>
+        </form>
+
+    </div>
+</dialog>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
