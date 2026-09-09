@@ -4,8 +4,6 @@ Landing page de uma clínica odontológica, desenvolvida para portfólio com HTM
 
 **[Acesse o site publicado](https://wenderllan.github.io/clinica-aurea/)**
 
-![Página inicial da Clínica Áurea](assets/images/preview-clinica-aurea.png)
-
 ## Sobre o projeto
 
 A proposta é apresentar os tratamentos, a estrutura e os profissionais de uma clínica em uma página clara e acolhedora. A interface conduz o visitante da apresentação inicial até as informações de contato, com interações demonstrativas para agendamento e perfis profissionais.
